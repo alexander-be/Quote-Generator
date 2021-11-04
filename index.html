@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="error hidden" id="error">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <span>Ooops..Something went wrong.</span>
+    </div>
     <div class="quote-container" id="quote-container">
       <div class="quote-text">
         <i class="fas fa-quote-left"></i>
@@ -27,6 +31,7 @@
         <button id="new-quote">New Quote</button>
       </div>
     </div>
+    <div class="loader" id="loader"></div>
     <script src="script.js"></script>
   </body>
 </html>
